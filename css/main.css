@@ -1,0 +1,489 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+}
+
+.wrapper {
+    width: 1440px; margin: auto;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7.7em;
+    background-color: #F9F9F9;
+    padding: 0 12.8em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px;}
+
+header ul {
+    display: flex; gap: 8.8em;
+    margin: 0;
+}
+
+header a {
+    color: inherit; text-decoration: none;
+}
+
+header ul li {
+    font-family: karla;
+    list-style: none;
+    color: #031E23;
+    font-size: 1.4rem;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+header ul li:hover {
+    color: #DC6041;
+}
+
+.active {
+    color: #DC6041;
+    
+}
+
+header img {
+    transform: translateY(1em);
+}
+
+/* MAIN */
+
+.D1{
+    display: flex;
+    gap: 4.1em;
+
+}
+
+.d11 h1{
+color: #264549;
+font-family: Roboto;
+font-size: 4.6rem;
+font-weight: 700;
+line-height: 6rem;
+}
+
+.d11 p {
+color: #214B51;
+font-family: Karla;
+font-size: 2.4rem;
+font-weight: 700;
+line-height: 3.6rem;
+}
+
+.d11 {
+    width: 55.1em;
+    margin: 13.5em 0 0 12.4%;
+}
+
+.d12{
+    display: flex;    justify-content: center;
+    align-items: end;
+    background: url(../images/dots.png) no-repeat;
+    background-position: bottom;
+    flex-grow: 1;
+}
+
+
+.btt {
+    display: flex; align-items: center;justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Karla;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.4em;
+    background-color: #DC6041;
+    width: 10.35em;
+    height: 4.28em;
+    transform: translateY(3.28em);
+    transition: all 0.5s;
+
+}
+.btt a {
+    text-decoration: none; color: inherit;
+}
+
+.btt:hover{
+   background-color: #b9472b;
+}
+
+.D2 {
+    background: url(../images/main-img.jpg);
+    margin: 1.6em 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 73.5em;
+}
+ .D3 {
+    padding: 13.5em 0 16.4em 12.5em;
+    background-color: #031E23;
+    color: #FFF;
+ }
+
+.Number {
+    padding: 2.7em 1em 2.6em 1em;
+
+}
+
+.Number img {
+    position: relative;
+}
+ .Number h3 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    transform: translateY(-1em);
+    background-color: #031E23;
+ }
+ .Number p {
+    color: #FFF;
+    font-family: Karla;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.92em;
+    text-transform: uppercase;
+    margin: 0;
+
+ }
+
+ .D3-gr {
+    display: grid;
+    padding: 0 12.5em 0 0;
+    grid-template-columns: repeat(3 , 1fr);
+ }
+
+ .D3-gr .grid {
+
+    height: 19.1em;
+    padding: 1.3em 9.7em 1em 1em;
+ } 
+
+ .grid span {
+    color: #DC6041;
+    font-family: Karla;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1em;
+ }
+
+ .grid h3 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.3em;
+ }
+
+ .grid p {
+    color: #FFF;
+    font-family: Karla;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.8em; 
+ }
+
+ .D4{
+    padding: 13.5em 0 6.4em 12.5em;
+    background: url(../images/dots-1.png) no-repeat;
+    background-position: right top;
+
+ }
+
+
+ .Number {
+    padding: 2.7em 1em 2.6em 1em;
+
+}
+
+.Number-1 img {
+    position: relative;
+}
+ .Number-1 h3 {
+    color: #031E23;
+    font-family: Roboto;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    transform: translateY(-1em);
+    background-color: #FFF;
+ }
+ .Number-1 p {
+    color: #031E23;
+    font-family: Karla;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.92em;
+    text-transform: uppercase;
+    margin: 0;
+ }
+
+ .D4 h2 {
+    color: #031E23;
+    font-family: Roboto;
+    font-size: 4.2rem;
+    font-weight: 400;
+    line-height: 1.2em; 
+    width: 45%;
+    margin: 1.19em 0 0 0;
+ }
+
+ .D4 p {
+    color: #DC6041;
+    font-family: Roboto;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1.3em; 
+
+ }
+
+ .d4-grid {
+    display: grid;
+    margin: 0 3.7em;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+ }
+
+ .d4-img1 {
+    grid-column: span 2;
+    grid-row:  span 2;
+ }
+
+ .d4-img2 {
+    grid-column: span 2;
+ }
+
+ .btt-1 {
+    margin: 0 auto;
+ }
+
+ .D5 {
+    margin: 15em 0 0 0;
+    padding: 13.5em 0 20.5em 12.5em;
+    background-color: #031E23;
+    color: #FFF;
+ }
+
+ .D5-1 {
+    display: flex;
+    gap: 14em;
+    padding: 0 12.5em 0 11.5em;
+ }
+
+ .D5-1 div:last-child {
+    padding: 17.4em 0 0 0;
+ }
+
+ .D5 h3 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.3em; 
+    margin: 0;
+ }
+
+ .D5 span {
+    color: #DC6041;
+    font-family: Karla;
+    font-size: 2rem;
+ }
+
+ .D5 p {
+    color: #FFF;
+    font-family: Karla;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.8em; 
+    width: 100%;
+    margin: 1em 0 0 0;
+ }
+
+
+ .D6{
+    padding: 13.5em 0 13.5em 12.5em;
+    background: url(../images/dots-1.png) no-repeat;
+    background-position: right top -2.7em;
+
+ }
+
+ .D6-1 {
+    display: flex;
+    gap: 4.5em;
+ }
+
+ .d61 , .d62 {
+    width: 25.2em;
+    padding: 5em 4.5em 0 0;
+ }
+
+ .d61 p {
+    color: #031E23;
+    font-family: Karla;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.8em; 
+    margin: 0;
+ }
+
+ .d62 h6 {
+    color: #031E23;
+    font-family: Karla;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8em; 
+    margin: 0;
+ }
+
+ .d62 p {
+    color: #B3B3B3;
+    font-family: Karla;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.8em;
+ }
+
+ .d63 {
+    width: 46.6em;
+ }
+
+ .d63 label{
+    color: #031E23;
+    font-family: Karla;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.8em; 
+
+ }
+
+ .d63 input , textarea {
+    border: none;
+  
+}
+
+.d63-message label{
+    display: block;
+}
+
+
+
+.d63-message , .d63-name , .d63-email {
+    border-bottom: 0.2em #031E23 solid ;
+    padding: 0 0 0 1em;
+    margin: 0 0 4em 0;
+}
+
+.D6 span {
+    color: #FFF;
+    font-family: Karla;
+    margin: 0 18em 0 auto;
+    display: flex;
+    width: 43.8em;
+    height: 6em;
+    justify-content: center;
+    align-items: center;
+    background: #DC6041;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all .5s;
+}
+
+.D6 span a {
+    text-decoration: none; color: inherit;
+    font-weight: 700;
+}
+
+.D6 span:hover{
+   background-color: #b9472b;
+}
+
+#input-name , #input-email {
+
+   height: 1.5em;
+   width: 75%;
+   padding: .1em .4em;
+   margin: 0.2em 0.8em;
+}
+
+#message {
+   width: 95%;
+   padding: .4em .4em;
+   margin: 0.4em 0.4em;
+}
+
+.D6 span p {font-size: 2rem;}
+
+/* Footer */
+
+footer {
+    background: #021619;
+    height: 50em;
+
+}
+
+.footer-logo{
+    display: block;
+    margin: auto;
+    transform: translateY(-5.5em);
+}
+
+footer h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1em;
+
+}
+
+footer p {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 1em; 
+    
+}
+
+footer div {
+    display: flex;
+    margin-top: 13.8em;
+    gap: 2.6em;
+    justify-content: center;
+}
+
+/*  scroll bar */
+
+*::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background-color: #F9F9F9;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #dc6041a8;
+    border-radius: 20px;
+  }
